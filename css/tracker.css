@@ -1,0 +1,33 @@
+html * {
+  padding: 0;
+  margin: 0;
+  font-family: Fira sans;
+}
+body {
+  padding-top: 70px;
+}
+h1 {
+  color: #5e5e5e;
+}
+.error {
+  border: 1px solid red;
+}
+#controls {
+  width: 95px;
+}
+*:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+#total {
+  display: none;
+}
+@media (min-width: 465px) {
+  #total {
+    display: inline;
+  }
+}
+/*tr {
+  line-height: 51px !important;
+  vertical-align: center !important;
+}*/
